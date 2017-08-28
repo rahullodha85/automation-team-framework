@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ensoTests.xml -->
+<TestData>
+    <ProductsSaks>
+        <ProductSaks skuid="1689949379014814">0413806435288</ProductSaks><!--no color size item-->
+        <ProductSaks skuid="1689949379999836">0418131077950</ProductSaks><!--no color size item-->
+        <ProductSaks skuid="1689949379772596">0400087536248</ProductSaks><!--no color size item-->
+        <ProductSaks skuid="1689949380010086">0400088742256</ProductSaks><!--no color size item-->
+        <ProductSaks skuid="1689949376640196">0457004991658</ProductSaks> <!--drop ship item-->
+        <ProductSaks skuid="1689949376287884">0499932227409</ProductSaks><!--gift card item-->
+        <ProductSaks>0457109395870</ProductSaks><!--Personalized item-->
+        <ProductSaks skuid="1689949380174813">0400089327883</ProductSaks><!--pre order item-->
+        <ProductSaks skuid="1689949379340457">0457142487549</ProductSaks><!--Cannot be shipped via Rush, Next Business Day, Saturday delivery-->
+    </ProductsSaks>
+    <ProductsOff5th>
+        <ProductOff5th skuid="1689949372070904">0490433169434</ProductOff5th><!-- color size item-->
+        <ProductOff5th skuid="1689949372912718">0400088089966</ProductOff5th><!-- color size item-->
+        <ProductOff5th skuid="1689949379772596">0400087536248</ProductOff5th><!--no color size item-->
+        <ProductOff5th skuid="1689949380010086">0400088742256</ProductOff5th><!--no color size item-->
+        <ProductOff5th skuid="1689949376640196">0457004991658</ProductOff5th> <!--drop ship item-->
+        <ProductOff5th skuid="1689949376287884">0499932227409</ProductOff5th><!--gift card item-->
+        <ProductOff5th>0457109395870</ProductOff5th><!--Personalized item-->
+        <ProductOff5th skuid="1689949380174813">0400089327883</ProductOff5th><!--pre order item-->
+        <ProductOff5th skuid="1689949379340457">0457142487549</ProductOff5th><!--Cannot be shipped via Rush, Next Business Day, Saturday delivery-->
+    </ProductsOff5th>
+    <PromosSaks>
+        <Promo>PERWTHR</Promo><!--freeship promo-->
+    </PromosSaks>
+
+    <UserDetails>
+        <Login>qauser@gmail.com</Login>
+        <Password>test123</Password><!--Normal account-->
+        <Login>qauser1@gmail.com</Login>
+        <Password>saks123</Password> <!--Associate discount card account-->
+        <Login>testuser645174@gmail.com</Login>
+        <Password>test123</Password>
+        <!--<Login>borderfreehbc@gmail.com</Login>
+        <Password>test123</Password>-->
+        <Login>amit.jain1988@gmail.com</Login>
+        <Password>test123</Password>
+        <Login>testuser116631@gmail.com</Login>
+        <Password>test123</Password>
+
+    </UserDetails>
+    <ContextChooser>
+        <Country>CA</Country>
+        <Currency>CAD</Currency>
+        <Country>GB</Country>
+        <Currency>GBP</Currency>
+        <Country>TR</Country>
+        <Currency>TRY</Currency>
+    </ContextChooser>
+    <Addresses>
+        <Address>250 Vesey St</Address>
+        <City>New York</City>
+        <State>New York</State>
+        <ZipCode>10281</ZipCode>
+        <AddressCountry>United States</AddressCountry>
+        <AddressCountryCode>US</AddressCountryCode>
+        <Address>234 Laurier Avenue West</Address>
+        <City>Ottawa</City>
+        <State>ON</State>
+        <ZipCode>K1A 0G9</ZipCode>
+        <AddressCountry>CANADA</AddressCountry>
+        <AddressCountryCode>CA</AddressCountryCode>
+        <Address>Russell Square</Address>
+        <City>Westminster</City>
+        <State>London</State>
+        <ZipCode>W2 2TY</ZipCode>
+        <AddressCountry>United Kingdom</AddressCountry>
+        <AddressCountryCode>GB</AddressCountryCode>
+        <Address>Yapi Kredi Plaza C Blok Kat 15</Address>
+        <City>Besiktas</City>
+        <State>Istanbul</State>
+        <ZipCode>34330</ZipCode>
+        <AddressCountry>Turkey</AddressCountry>
+        <AddressCountryCode>TR</AddressCountryCode>
+    </Addresses>
+    <ShippingMethods>
+        <ShipMethod>EXPRESS_DDP|PREPAID</ShipMethod>
+        <ShipMethod>EXPRESS_DDP|UNPAID</ShipMethod>
+    </ShippingMethods>
+    <CreditCards>
+        <CardType>MasterCard</CardType>
+        <CreditCardNumber>5444009999222205</CreditCardNumber>
+        <CardType>Visa</CardType>
+        <CreditCardNumber>4445222299990007</CreditCardNumber>
+        <CardType>Saks Fifth Avenue Store Card</CardType>
+        <CreditCardNumber>8091179005</CreditCardNumber>
+    </CreditCards>
+</TestData>
